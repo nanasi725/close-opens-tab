@@ -1,0 +1,28 @@
+{
+  "name": "close-opens-tab",
+  "version": "1.0.0",
+  "description": "Chrome extension that opens a new tab when a tab is closed",
+  "main": "index.js",
+  "scripts": {
+    "build:ts": "tsc",
+    "copy": "cpx \"public/**/*\" dist",
+    "build": "npm-run-all build:ts copy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nanasi725/close-opens-tab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nanasi725/close-opens-tab/issues"
+  },
+  "homepage": "https://github.com/nanasi725/close-opens-tab#readme",
+  "devDependencies": {
+    "chrome-types": "latest",
+    "cpx": "latest",
+    "npm-run-all": "latest",
+    "typescript": "latest"
+  }
+}

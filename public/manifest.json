@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Close Opens New Tab",
+  "version": "0.1.0",
+  "description": "タブを閉じたら新しいタブを開く拡張機能",
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  }
+}
